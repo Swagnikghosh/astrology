@@ -44,18 +44,24 @@ Assigned to: Themeforest
 32. Responsive css start / .ast_packages_box ul li
 -------------------------------------------------------------------*/
 /*--------- Body Strat -------*/
+@font-face {
+    font-family: 'Matura MT Script Capitals';
+    src: url('MaturaMTScriptCapitals.ttf') format('truetype');
+}
+
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
-	color: #777777;
+	color: #03540e;
 	background-color:#ffffff;
 	-webkit-font-smoothing: antialiased;
 }
 /*--------- Body End -------*/
 /*---------- Normal Css Start -------*/
 a {
-	color: #777777;
+	color: #043f13;
 	text-decoration: none;
 	cursor:pointer;
 	-webkit-transition:all .3s;
@@ -65,7 +71,7 @@ a {
 	transition:all .3s;
 }
 a:hover, a:focus {
-	color: #535465;
+	color: #043f13;
 	text-decoration: none;
 }
 a:focus {
@@ -75,7 +81,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Philosopher', sans-serif;
 	font-weight: 600;
 	line-height: 1.1;
-	color: #333333;
+	color: #043f13;
 }
 img {
 	max-width: 100%;
@@ -383,7 +389,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
     transform-origin: top;
 }
-.ast_menu ul li a:after{
+/* .ast_menu ul li a:after{
 	content:"";
 	position:absolute;
 	opacity:0;
@@ -393,17 +399,17 @@ input:focus, textarea:focus, select:focus, button:focus {
 	bottom:0;
 	right:0;
 	z-index:-1;
-	background-color: #ff6f00;
+	color: #ff6f00;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-}
-.ast_menu ul li a:hover:after{
+} */
+.ast_menu ul li a:hover{
 	opacity:1;
 	visibility:visible;
-	background-color: #ff6f00;
+	color: #ff6f00;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1353,7 +1359,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	width:130px;
 	height:130px;
 	border:8px solid #f4f4f4;
-	background-color:#ffffff;
+	background-color:#ff6f00; 
 	border-radius:100%;
 	margin:30px 0px;
 	position:relative;
@@ -1365,7 +1371,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-.ast_packages_box:hover .ast_price{
+/* .ast_packages_box:hover .ast_price{
 	background-color: #ff6f00;
     -webkit-box-shadow: 0px 0px 30px -10px #000000;
     -moz-box-shadow: 0px 0px 30px -10px #000000;
@@ -1377,7 +1383,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-}
+} */
 .ast_packages_box .ast_price h2{
 	display:inline-block;
 	margin:0px;
