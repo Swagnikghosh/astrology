@@ -69,20 +69,7 @@
     /* .ast_slider_wrapper{
       width: ;
     } */_
-    .responsive {
-    float: left;
-    width: 100%;
-    position: relative;
-    background-color: #111111;
-    z-index: 1;
-    background-image: url(../certificates/numerology-collage-concept.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain; /* Ensures the entire image is visible within the container */
-    height: auto; /* Height adjusts automatically to maintain aspect ratio */
-    min-height: 783px; /* Ensures minimum height */
-}
+    
 
     .ast_menu_btn{
       margin-top: -10px !important;
