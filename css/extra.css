@@ -12,8 +12,9 @@
     text-decoration: underline;
 } */
  .image{
-    width: 300px;
+    width: 700px !important;
     height: 400px;
+    /* margin-left: 100px ; */
     border-radius: 10px;
     border: 5px solid orange;
  }
@@ -26,20 +27,27 @@
     /* display: inline; */
  }
  .ast_logo p{
-    border: 1px solid orange;
+  color:rgb(83, 3, 3) !important;
+    border: 1px solid rgb(117, 14, 14);
     border-radius: 50%;
     height: 15px;
     width: 15px;
     text-align: center;
     margin-top: -10px;
     margin-bottom: -10px;
-    margin-left: 250px;
+    margin-left: 335px;
     /* padding-top: -150px !important; */
     font-size: 10px;
  }
  .logo{
-   font-size: 30px;
+   font-size: 40px;
+   width: 400px;
+   color:rgb(83, 3, 3) !important;
+   
+   /* text-decoration: underline; */
+   /* border: 2px solid white; */
  }
+ 
  .ast_menu li a{
    font-weight: 800;
  }
@@ -73,4 +81,8 @@
    border-radius: 50%;
    height: 400px;
    width: 400px;
+ }
+ .gem{
+  height: 200px;
+  width:200px;
  }
