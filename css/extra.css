@@ -66,14 +66,9 @@
       text-align: center !important;
       margin-right: 90px;
     }
-    .ast_slider_wrapper {
-      width: fit-content;
-      background-size: cover; /* or you can use contain, auto, or specify width and height like 100% 50% */
-      background-repeat: no-repeat; /* Ensures the image does not repeat */
-      background-position: center; /* Centers the image within the container */
-      height: 300px; /* Adjust this value as needed */
-      width: 300px; /* Adjust this value as needed */
-  }
+    /* .ast_slider_wrapper{
+      width: ;
+    } */
     
     .ast_menu_btn{
       margin-top: -10px !important;
