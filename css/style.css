@@ -44,9 +44,14 @@ Assigned to: Themeforest
 32. Responsive css start / .ast_packages_box ul li
 -------------------------------------------------------------------*/
 /*--------- Body Strat -------*/
+
 @font-face {
     font-family: 'Matura MT Script Capitals';
-    src: url('MaturaMTScriptCapitals.ttf') format('truetype');
+    src: url('path/to/matura-mt-script-capitals.woff2') format('woff2'),
+         url('path/to/matura-mt-script-capitals.woff') format('woff');
+    /* Add more src lines for different formats if necessary */
+    font-weight: normal;
+    font-style: normal;
 }
 
 

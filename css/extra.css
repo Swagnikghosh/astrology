@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Matura MT Script Capitals';
+  src: url('path/to/matura-mt-script-capitals.woff2') format('woff2'),
+       url('path/to/matura-mt-script-capitals.woff') format('woff');
+  /* Add more src lines for different formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .truncate {
     overflow: hidden;
     white-space: nowrap;
@@ -69,12 +79,21 @@
     /* .ast_slider_wrapper{
       width: ;
     } */_
-    
+    .imagee{
+      height: 30px !important;
+      width: 10px !important;
+      border: 2px solid rgb(85, 15, 15) !important;
+      
+    }
 
     .ast_menu_btn{
       margin-top: -10px !important;
     }
-    
+    .image{
+      height: 200px;
+      width:200px;
+      margin-left: 20px !important;
+     }
     /* .ast_header_bottom{
       margin-top: 70px;
     } */
@@ -89,4 +108,8 @@
  .gem{
   height: 200px;
   width:200px;
+ }
+ .row h3{
+  font-family: 'Matura MT Script Capitals', cursive !important;
+  color: #ff6f00 !important;
  }
