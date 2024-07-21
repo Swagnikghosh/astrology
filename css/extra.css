@@ -1,11 +1,15 @@
 @font-face {
   font-family: 'Matura MT Script Capitals';
-  src: url('path/to/matura-mt-script-capitals.woff2') format('woff2'),
-       url('path/to/matura-mt-script-capitals.woff') format('woff');
-  /* Add more src lines for different formats if necessary */
+  src: url('path/to/matura-mt-script-capitals.woff2') format('woff2'), /* Modern Browsers */
+       url('path/to/matura-mt-script-capitals.woff') format('woff'), /* Modern Browsers */
+       url('path/to/matura-mt-script-capitals.ttf') format('truetype'), /* Legacy Browsers */
+       url('path/to/matura-mt-script-capitals.svg#filename') format('svg'); /* Legacy iOS */
+  /* Add additional formats as needed */
   font-weight: normal;
   font-style: normal;
 }
+
+
 
 
 .truncate {
